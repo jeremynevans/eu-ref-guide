@@ -22,6 +22,8 @@
         });
         </script>
 <link rel='stylesheet' id='html5blank-css1'  href='http://calm-woodland-73627.herokuapp.com/wp-content/themes/html5blank-stable/bootstrap.min.css' media='all' />
+        
+        <script src="http://calm-woodland-73627.herokuapp.com/wp-content/themes/html5blank-stable/bootstrap.min.js"></script>
 
 	</head>
 	<body <?php body_class(); ?>>
