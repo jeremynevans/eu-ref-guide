@@ -4,7 +4,7 @@
 		<!-- section -->
 		<section>
 			
-			Hello testing 2
+			Hello testing 3
 
 			<h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
 
