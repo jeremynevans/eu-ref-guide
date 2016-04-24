@@ -47,7 +47,7 @@ The Issues!
 						echo $queryOne;
 
 						// The Query
-						query_posts( 'category__and' => array( 3, 4 ) );
+						query_posts( array( 'category__and' => array( 3, 4 ) ) );
 
 						// The Loop
 						while ( have_posts() ) : the_post();
