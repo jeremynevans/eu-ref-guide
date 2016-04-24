@@ -40,7 +40,8 @@
 					<?php
 					for ($x = 0; $x < 6; $x++) {
 
-						$myCats = array(5,3,4,6,7,8); ?>
+						$myCats = array(5,3,4,6,7,8);
+					?>
 
 						<div class="content">
 							<div class='col-md-10 col-md-offset-1 ratio-2:1 inner'>
@@ -83,10 +84,11 @@
 								</div>
 
 								<?php
-							endwhile;
-							// Reset Query
-							wp_reset_query();
-							?>
+								endwhile;
+								// Reset Query
+								wp_reset_query();
+								?>
+							</div>
 						</div>
 					</div>
 					<?php } ?>
