@@ -16,7 +16,7 @@ body{
 	background:url(http://www.lirent.net/wp-content/uploads/2014/10/Android-Lollipop-wallpapers-5.jpg);
   background-size:cover;
 	font-family: Lato, sans-serif;
-	background: #ffd;
+	background: #ddf;
 }
 
 /*component*/
