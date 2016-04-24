@@ -42,7 +42,7 @@ The Issues!
 						<?php
 
 						$myCat = 3;
-						$queryOne = 'cat=' . $myCat . '&cat=4';
+						$queryOne = 'cat=' . $myCat . ',4';
 						echo $queryOne;
 
 						// The Query
@@ -61,7 +61,7 @@ The Issues!
 
 							<?php
 							// The Query
-							query_posts( 'cat=3&cat=-4' );
+							query_posts( 'cat=3,-4' );
 							// The Loop
 							while ( have_posts() ) : the_post();
 							?>
