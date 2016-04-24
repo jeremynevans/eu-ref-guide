@@ -31,8 +31,8 @@
 				</div>
 			</div>
 			<div class="dash scroll invisibar">
-				<!-- <div class="panes breakscroll">
-					<div class="content">
+				<div class="panes breakscroll">
+					<!-- <div class="content">
 						<div class='col-md-10 col-md-offset-1 ratio-2:1 inner'> -->
 							<?php //get_template_part('loop'); ?>
 						<!-- </div>
