@@ -48,7 +48,7 @@
 
 								<?php
 								// The Query
-								query_posts( array( 'category__and' => array( $myCat[$x], 4 ) ) );
+								query_posts( array( 'category__and' => array( $myCats[$x], 4 ) ) );
 
 								// The Loop
 								while ( have_posts() ) : the_post();
@@ -63,7 +63,7 @@
 
 								<?php
 								// The Query
-								query_posts( 'cat=' + $myCat[$x] + ',-4' );
+								query_posts( 'cat=' + $myCats[$x] + ',-4' );
 								// The Loop
 								while ( have_posts() ) : the_post();
 								?>
