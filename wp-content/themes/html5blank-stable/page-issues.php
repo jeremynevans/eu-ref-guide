@@ -37,16 +37,17 @@ The Issues!
           <?php get_template_part('loop'); ?>
         </div>
       </div>
-      <div class="content">
-          <div class='col-md-10 col-md-offset-1 ratio-2:1 inner'>
-						<?php
+			<?php $myCat = 3; ?>
 
-						$myCat = 3;
+			<div class="content">
+					<div class='col-md-10 col-md-offset-1 ratio-2:1 inner'>
+
+						<?php
 						$queryOne = 'cat=' . $myCat . '+4';
 						echo $queryOne;
 
 						// The Query
-						query_posts( $queryOne );
+						query_posts( 'category__and' => array( 3, 4 ) );
 
 						// The Loop
 						while ( have_posts() ) : the_post();
