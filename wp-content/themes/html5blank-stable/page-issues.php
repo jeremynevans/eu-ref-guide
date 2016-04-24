@@ -13,12 +13,12 @@ The Issues!
   <nav class="navbar navbar-default slide-tab" role="navigation">
     <div class="container-fluid scroll invisibar">
         <ul class="nav navbar-nav breakscroll">
-          <li class="active"><a href="#">Foo</a></li>
-          <li><a href="#">Bar</a></li>
-          <li><a href="#">Thunder</a></li>
-          <li><a href="#">Bar</a></li>
-          <li><a href="#">Thunder</a></li>
-          <li><a href="#">Bar</a></li>
+          <li class="active"><a href="#">The EU and Me</a></li>
+          <li><a href="#">The EU and Money</a></li>
+          <li><a href="#">The EU and Nature</a></li>
+          <li><a href="#">The EU and Power</a></li>
+          <li><a href="#">The EU and Migration</a></li>
+          <li><a href="#">The EU and The World</a></li>
       </ul>
     </div>
   </nav>
