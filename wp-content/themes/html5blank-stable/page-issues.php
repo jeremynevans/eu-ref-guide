@@ -40,7 +40,7 @@
 					<?php
 					for ($x = 0; $x < 6; $x++) {
 
-						$myCats = array(5,3,4,6,7,8);
+						$myCats = array(5,3,6,7,8,9);
 					?>
 
 						<div class="content">
@@ -52,18 +52,19 @@
 
 								// The Loop
 								while ( have_posts() ) : the_post();
-								the_content();
-							endwhile;
+									the_content();
+								endwhile;
 
-							// Reset Query
-							wp_reset_query();
+								// Reset Query
+								wp_reset_query();
 							?>
 
 							<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
 								<?php
 								// The Query
-								query_posts( 'cat=' + $myCats[$x] + ',-4' );
+								$query = $myCats[$x] . ',-4';
+								query_posts( array( 'cat' => $query ) );
 								// The Loop
 								while ( have_posts() ) : the_post();
 								?>
