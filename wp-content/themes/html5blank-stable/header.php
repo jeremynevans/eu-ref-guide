@@ -1,7 +1,7 @@
 <!doctype html>
 <html <?php language_attributes(); ?> class="no-js">
 	<head>
-		
+
 		<style class="cp-pen-styles">/*Doc setup*/
 html,
 body{
@@ -203,13 +203,9 @@ line-height: 28px;
   color:#fff;
   margin:4.1%;
 }
+</style>
 
-/*from my responsive bootstrap proportions pen*/
-/* http://codepen.io/rare_and_square/pen/yyNXjw */
-[class*="ratio"]{position:relative}[class*="ratio"]>div,[class*="ratio"]>section,[class*="ratio"]>article,[class*="ratio"]>header,[class*="ratio"]>footer{position:absolute;left:0;top:0;width:100%;height:100%}.col-md-1.ratio-1\:1{padding-bottom:8.333333335%}.col-md-2.ratio-1\:1{padding-bottom:16.66666667%}.col-md-3.ratio-1\:1{padding-bottom:25%}.col-md-4.ratio-1\:1{padding-bottom:33.33333333%}.col-md-5.ratio-1\:1{padding-bottom:41.66666667%}.col-md-6.ratio-1\:1{padding-bottom:50%}.col-md-7.ratio-1\:1{padding-bottom:58.33333333%}.col-md-8.ratio-1\:1{padding-bottom:66.66666667%}.col-md-9.ratio-1\:1{padding-bottom:75%}.col-md-10.ratio-1\:1{padding-bottom:83.33333333%}.col-md-11.ratio-1\:1{padding-bottom:91.66666667%}.col-md-12.ratio-1\:1{padding-bottom:100%}.col-md-1.ratio-2\:1{padding-bottom:4.1666666675%}.col-md-2.ratio-2\:1{padding-bottom:8.333333335%}.col-md-3.ratio-2\:1{padding-bottom:12.5%}.col-md-4.ratio-2\:1{padding-bottom:16.666666665%}.col-md-5.ratio-2\:1{padding-bottom:20.833333335%}.col-md-6.ratio-2\:1{padding-bottom:25%}.col-md-7.ratio-2\:1{padding-bottom:29.166666665%}.col-md-8.ratio-2\:1{padding-bottom:33.333333335%}.col-md-9.ratio-2\:1{padding-bottom:37.5%}.col-md-10.ratio-2\:1{padding-bottom:41.666666665%}.col-md-11.ratio-2\:1{padding-bottom:45.833333335%}.col-md-12.ratio-2\:1{padding-bottom:50%}.col-md-1.ratio-3\:1{padding-bottom:2.777777778333333%}.col-md-2.ratio-3\:1{padding-bottom:5.555555556666667%}.col-md-3.ratio-3\:1{padding-bottom:8.333333333333333%}.col-md-4.ratio-3\:1{padding-bottom:11.11111111%}.col-md-5.ratio-3\:1{padding-bottom:13.88888889%}.col-md-6.ratio-3\:1{padding-bottom:16.66666666666667%}.col-md-7.ratio-3\:1{padding-bottom:19.44444444333333%}.col-md-8.ratio-3\:1{padding-bottom:22.22222222333333%}.col-md-9.ratio-3\:1{padding-bottom:25%}.col-md-10.ratio-3\:1{padding-bottom:27.77777777666667%}.col-md-11.ratio-3\:1{padding-bottom:30.55555555666667%}.col-md-12.ratio-3\:1{padding-bottom:33.33333333333333%}</style>
-		
-		
-		
+
 		<meta charset="<?php bloginfo('charset'); ?>">
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
 
@@ -231,7 +227,7 @@ line-height: 28px;
         });
         </script>
 <link rel='stylesheet' id='html5blank-css1'  href='http://calm-woodland-73627.herokuapp.com/wp-content/themes/html5blank-stable/bootstrap.min.css' media='all' />
-        
+
         <script src="http://calm-woodland-73627.herokuapp.com/wp-content/themes/html5blank-stable/js/bootstrap.min.js"></script>
 
 	</head>
