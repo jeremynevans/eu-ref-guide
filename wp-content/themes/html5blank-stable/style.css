@@ -308,7 +308,12 @@ a img.aligncenter {
 
 .logo {
 	font-size: 48px;
-	color: #5555ff;
+	font-weight: 900;
+  margin: 20px 0;
+}
+
+.logo a {
+	color: #3333ff;
 }
 
 .content-container {

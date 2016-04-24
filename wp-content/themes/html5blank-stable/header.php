@@ -13,9 +13,10 @@ body{
   overflow-y:hidden;*/
 }
 body{
-background:url(http://www.lirent.net/wp-content/uploads/2014/10/Android-Lollipop-wallpapers-5.jpg);
+	background:url(http://www.lirent.net/wp-content/uploads/2014/10/Android-Lollipop-wallpapers-5.jpg);
   background-size:cover;
 	font-family: Lato, sans-serif;
+	background: #ffd;
 }
 
 /*component*/
@@ -49,7 +50,7 @@ background: linear-gradient(rgba(214,36,0,1) 1%, rgba(214,36,0,1) 100%);
 .navbar.slide-tab .navbar-nav > li > a:hover,
 .navbar.slide-tab .navbar-nav > li > a:focus{
   background:none;
-  color:inherit;
+  color:#333;
   -webkit-user-select: none;  /* Chrome all / Safari all */
   -moz-user-select: none;     /* Firefox all */
   -ms-user-select: none;
@@ -84,6 +85,8 @@ background-position:0 0;
 .layer{
   background:rgba(0,0,0,0.8);
   height:100%;
+  background: white;
+  border-radius: 10px;
 }
 
 .container-fluid.scroll{
