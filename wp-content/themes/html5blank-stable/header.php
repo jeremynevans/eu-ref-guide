@@ -166,6 +166,7 @@ line-height: 28px;
 }
 
 .hotspot{
+  pointer-events: none;
   position:absolute;
   z-index:1;
   top:72px;
@@ -228,7 +229,7 @@ line-height: 28px;
         </script>
 <link rel='stylesheet' id='html5blank-css1'  href='http://calm-woodland-73627.herokuapp.com/wp-content/themes/html5blank-stable/bootstrap.min.css' media='all' />
 
-        
+
 
 	</head>
 	<body <?php body_class(); ?>>
