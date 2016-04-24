@@ -40,8 +40,11 @@ The Issues!
       <div class="content">
           <div class='col-md-10 col-md-offset-1 ratio-2:1 inner'>
 						<?php
+
+						var $myCat = 3;
+
 						// The Query
-						query_posts( 'cat=3&cat=4' );
+						query_posts( 'cat=' + $myCat + '&cat=4' );
 
 						// The Loop
 						while ( have_posts() ) : the_post();
