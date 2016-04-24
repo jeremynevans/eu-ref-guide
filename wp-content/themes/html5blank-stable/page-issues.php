@@ -57,7 +57,7 @@ The Issues!
 
 							<?php
 								// The Query
-								query_posts( 'cat=3&cat!=4' );
+								query_posts( 'cat=3&cat=-4' );
 
 								// The Loop
 								while ( have_posts() ) : the_post();
