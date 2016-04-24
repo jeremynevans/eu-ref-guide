@@ -39,7 +39,21 @@ The Issues!
       </div>
       <div class="content">
           <div class='col-md-10 col-md-offset-1 ratio-2:1 inner'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+						<?php
+						// The Query
+						query_posts( 'cat=3' );
+
+						// The Loop
+						while ( have_posts() ) : the_post();
+						    echo '<li>';
+						    the_title();
+						    echo '</li>';
+						    the_content();
+						endwhile;
+
+						// Reset Query
+						wp_reset_query();
+						?>
           </div>
       </div>
       <div class="content">
