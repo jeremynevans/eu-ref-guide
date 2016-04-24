@@ -192,5 +192,9 @@ $(function () {
 });
 </script>
 
+<script>
+$('.collapse').collapse()
+</script>
+
 	</body>
 </html>
