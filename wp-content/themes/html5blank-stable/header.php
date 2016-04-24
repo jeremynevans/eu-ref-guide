@@ -160,7 +160,7 @@ line-height: 28px;
   width:9999vw!important;
 }
 .panes > .content{
-  min-height:100vh;
+  min-height:70vh;
   height:100%;
   width:calc(100vw);
   float:left;
@@ -251,6 +251,7 @@ line-height: 28px;
 					<!-- logo -->
 					<div class="logo">
 						<a href="<?php echo home_url(); ?>">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/United_Kingdom_EU.svg" style="height:80px;">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
 							EU Referendum Guide
 							<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img"> -->
