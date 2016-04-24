@@ -41,7 +41,17 @@ The Issues!
           <div class='col-md-10 col-md-offset-1 ratio-2:1 inner'>
 						<?php
 						// The Query
-						query_posts( 'cat=3' );
+						query_posts( 'cat=3&cat=4' );
+
+						// The Loop
+						while ( have_posts() ) : the_post();
+						    the_content();
+						endwhile;
+
+						// Reset Query
+						wp_reset_query();
+						// The Query
+						query_posts( 'cat=3&cat!=4' );
 
 						// The Loop
 						while ( have_posts() ) : the_post();
