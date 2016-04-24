@@ -42,9 +42,11 @@ The Issues!
 						<?php
 
 						$myCat = 3;
+						$queryOne = 'cat=' . $myCat . '&cat=4';
+						echo $queryOne;
 
 						// The Query
-						query_posts( 'cat=' . $myCat . '&cat=4' );
+						query_posts( $queryOne );
 
 						// The Loop
 						while ( have_posts() ) : the_post();
