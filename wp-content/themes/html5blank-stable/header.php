@@ -33,10 +33,10 @@ body{
   background:none;
 }
 .navbar.slide-tab .navbar-nav{
-  text-transform:uppercase;
+  /*text-transform:uppercase;*/
   letter-spacing:.9px;
   font-weight:600;
-  font-size:1.3rem;
+  font-size:1.5rem;
   -webkit-transition:background-size .3s;
   background: -webkit-linear-gradient(rgba(60,60,255,1) 1%, rgba(60,60,255,1) 100%);
 background: -moz-linear-gradient(rgba(60,60,255,1) 1%, rgba(60,60,255,1) 100%);
