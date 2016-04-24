@@ -72,12 +72,12 @@
 								<div class="panel panel-default">
 									<div class="panel-heading" role="tab" id="headingOne">
 										<h4 class="panel-title">
-											<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+											<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse<?php the_ID() ?>" aria-expanded="true" aria-controls="collapse<?php the_ID() ?>">
 												<?php the_title(); ?>
 											</a>
 										</h4>
 									</div>
-									<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									<div id="collapse<?php the_ID() ?>" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 										<div class="panel-body">
 											<?php the_content(); ?>
 										</div>
