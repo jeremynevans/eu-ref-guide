@@ -2,6 +2,8 @@
 <html <?php language_attributes(); ?> class="no-js">
 	<head>
 
+<link href='https://fonts.googleapis.com/css?family=Lato:400,900italic,900,700italic,700,400italic,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
+
 		<style class="cp-pen-styles">/*Doc setup*/
 html,
 body{
@@ -12,6 +14,7 @@ body{
 body{
 background:url(http://www.lirent.net/wp-content/uploads/2014/10/Android-Lollipop-wallpapers-5.jpg);
   background-size:cover;
+	font-family: Lato, sans-serif;
 }
 
 /*component*/
@@ -231,6 +234,8 @@ line-height: 28px;
 
 
 
+
+
 	</head>
 	<body <?php body_class(); ?>>
 
@@ -244,15 +249,16 @@ line-height: 28px;
 					<div class="logo">
 						<a href="<?php echo home_url(); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
+							EU Referendum Guide
+							<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img"> -->
 						</a>
 					</div>
 					<!-- /logo -->
 
 					<!-- nav -->
-					<nav class="nav" role="navigation">
-						<?php html5blank_nav(); ?>
-					</nav>
+					<!-- <nav class="nav" role="navigation"> -->
+						<?php //html5blank_nav(); ?>
+					<!-- </nav> -->
 					<!-- /nav -->
 
 			</header>

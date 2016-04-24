@@ -4,9 +4,9 @@
 	<!-- section -->
 	<section>
 
-		The Issues!
+		<!-- The Issues! -->
 
-		<h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
+		<!-- <h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1> -->
 
 
 		<div class="layer">
@@ -45,50 +45,52 @@
 
 						<div class="content">
 							<div class='col-md-10 col-md-offset-1 ratio-2:1 inner'>
+								<div class="content-container">
 
-								<?php
-								// The Query
-								query_posts( array( 'category__and' => array( $myCats[$x], 4 ) ) );
+									<?php
+									// The Query
+									query_posts( array( 'category__and' => array( $myCats[$x], 4 ) ) );
 
-								// The Loop
-								while ( have_posts() ) : the_post();
-									the_content();
-								endwhile;
+									// The Loop
+									while ( have_posts() ) : the_post();
+										the_content();
+									endwhile;
 
-								// Reset Query
-								wp_reset_query();
-							?>
-
-							<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-								<?php
-								// The Query
-								$query = $myCats[$x] . ',-4';
-								query_posts( array( 'cat' => $query ) );
-								// The Loop
-								while ( have_posts() ) : the_post();
+									// Reset Query
+									wp_reset_query();
 								?>
 
-								<div class="panel panel-default">
-									<div class="panel-heading" role="tab" id="headingOne">
-										<h4 class="panel-title">
-											<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse<?php the_ID() ?>" aria-expanded="true" aria-controls="collapse<?php the_ID() ?>">
-												<?php the_title(); ?>
-											</a>
-										</h4>
-									</div>
-									<div id="collapse<?php the_ID() ?>" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-										<div class="panel-body">
-											<?php the_content(); ?>
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+									<?php
+									// The Query
+									$query = $myCats[$x] . ',-4';
+									query_posts( array( 'cat' => $query ) );
+									// The Loop
+									while ( have_posts() ) : the_post();
+									?>
+
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingOne">
+											<h4 class="panel-title">
+												<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse<?php the_ID() ?>" aria-expanded="true" aria-controls="collapse<?php the_ID() ?>">
+													<?php the_title(); ?>
+												</a>
+											</h4>
+										</div>
+										<div id="collapse<?php the_ID() ?>" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+											<div class="panel-body">
+												<?php the_content(); ?>
+											</div>
 										</div>
 									</div>
-								</div>
 
-								<?php
-								endwhile;
-								// Reset Query
-								wp_reset_query();
-								?>
+									<?php
+									endwhile;
+									// Reset Query
+									wp_reset_query();
+									?>
+								</div>
 							</div>
 						</div>
 					</div>

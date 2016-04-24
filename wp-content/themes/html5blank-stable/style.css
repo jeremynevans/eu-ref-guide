@@ -75,7 +75,7 @@ input:focus {
 
 /* wrapper */
 .wrapper {
-	max-width:1280px;
+	/*max-width:1280px;*/
 	width:95%;
 	margin:0 auto;
 	position:relative;
@@ -304,4 +304,14 @@ a img.aligncenter {
 	h3 {
 		page-break-after:avoid;
 	}
+}
+
+.logo {
+	font-size: 48px;
+	color: #5555ff;
+}
+
+.content-container {
+	max-width: 800px;
+	margin: auto;
 }
