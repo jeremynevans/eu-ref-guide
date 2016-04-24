@@ -5,9 +5,9 @@
 		<style class="cp-pen-styles">/*Doc setup*/
 html,
 body{
-  position:relative;
+  /*position:relative;
   min-height:100vh;
-  overflow-y:hidden;
+  overflow-y:hidden;*/
 }
 body{
 background:url(http://www.lirent.net/wp-content/uploads/2014/10/Android-Lollipop-wallpapers-5.jpg);
