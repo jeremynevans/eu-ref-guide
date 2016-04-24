@@ -40,30 +40,53 @@ The Issues!
       <div class="content">
           <div class='col-md-10 col-md-offset-1 ratio-2:1 inner'>
 						<?php
-						// The Query
-						query_posts( 'cat=3&cat=4' );
+							// The Query
+							query_posts( 'cat=3&cat=4' );
 
-						// The Loop
-						while ( have_posts() ) : the_post();
-						    the_content();
-						endwhile;
+							// The Loop
+							while ( have_posts() ) : the_post();
+							    the_content();
+							endwhile;
 
-						// Reset Query
-						wp_reset_query();
-						// The Query
-						query_posts( 'cat=3&cat!=4' );
+							// Reset Query
+							wp_reset_query();
 
-						// The Loop
-						while ( have_posts() ) : the_post();
-						    echo '<li>';
-						    the_title();
-						    echo '</li>';
-						    the_content();
-						endwhile;
+						<?>
 
-						// Reset Query
-						wp_reset_query();
-						?>
+						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+							<?php
+								// The Query
+								query_posts( 'cat=3&cat!=4' );
+
+								// The Loop
+								while ( have_posts() ) : the_post();
+							?>
+
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingOne">
+									<h4 class="panel-title">
+										<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+											<?php the_title(); ?>
+										</a>
+									</h4>
+								</div>
+								<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									<div class="panel-body">
+										<?php the_content(); ?>
+									</div>
+								</div>
+							</div>
+
+
+
+							<?php
+								endwhile;
+
+								// Reset Query
+								wp_reset_query();
+							?>
+						</div>
           </div>
       </div>
       <div class="content">
