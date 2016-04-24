@@ -23,7 +23,7 @@ body{
 .navbar.slide-tab{
   border:0;
   border-radius:0;
-  border-bottom:2px solid #d62400;
+  border-bottom:2px solid rgb(60,60,255);
   color:#fff;
   min-height:0!important;
   position:relative;
