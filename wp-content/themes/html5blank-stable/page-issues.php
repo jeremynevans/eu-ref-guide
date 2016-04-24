@@ -42,7 +42,7 @@ The Issues!
 						<?php
 
 						$myCat = 3;
-						$queryOne = 'cat=' . $myCat . '&cat=4';
+						$queryOne = 'cat=' . $myCat . '+4';
 						echo $queryOne;
 
 						// The Query
