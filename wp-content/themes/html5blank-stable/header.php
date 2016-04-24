@@ -3,6 +3,7 @@
 	<head>
 
 <link href='https://fonts.googleapis.com/css?family=Lato:400,900italic,900,700italic,700,400italic,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
+<link rel='stylesheet' id='html5blank-css1'  href='http://calm-woodland-73627.herokuapp.com/wp-content/themes/html5blank-stable/bootstrap.min.css' media='all' />
 
 		<style class="cp-pen-styles">/*Doc setup*/
 html,
@@ -230,7 +231,6 @@ line-height: 28px;
             tests: {}
         });
         </script>
-<link rel='stylesheet' id='html5blank-css1'  href='http://calm-woodland-73627.herokuapp.com/wp-content/themes/html5blank-stable/bootstrap.min.css' media='all' />
 
 
 
