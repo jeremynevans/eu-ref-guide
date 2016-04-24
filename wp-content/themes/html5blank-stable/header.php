@@ -38,10 +38,10 @@ body{
   font-weight:600;
   font-size:1.3rem;
   -webkit-transition:background-size .3s;
-  background: -webkit-linear-gradient(rgba(214,36,0,1) 1%, rgba(214,36,0,1) 100%);
-background: -moz-linear-gradient(rgba(214,36,0,1) 1%, rgba(214,36,0,1) 100%);
-background: -o-linear-gradient(rgba(214,36,0,1) 1%, rgba(214,36,0,1) 100%);
-background: linear-gradient(rgba(214,36,0,1) 1%, rgba(214,36,0,1) 100%);
+  background: -webkit-linear-gradient(rgba(60,60,255,1) 1%, rgba(60,60,255,1) 100%);
+background: -moz-linear-gradient(rgba(60,60,255,1) 1%, rgba(60,60,255,1) 100%);
+background: -o-linear-gradient(rgba(60,60,255,1) 1%, rgba(60,60,255,1) 100%);
+background: linear-gradient(rgba(60,60,255,1) 1%, rgba(60,60,255,1) 100%);
   background-size:0;
   background-position:0 0;
   background-repeat:no-repeat;
@@ -70,10 +70,10 @@ background: linear-gradient(rgba(214,36,0,1) 1%, rgba(214,36,0,1) 100%);
 
 .navbar.slide-tab .navbar-nav > li.active > a{
   color:#fff;
-background: -webkit-linear-gradient(rgba(214,36,0,1) 1%, rgba(214,36,0,1) 100%);
-background: -moz-linear-gradient(rgba(214,36,0,1) 1%, rgba(214,36,0,1) 100%);
-background: -o-linear-gradient(rgba(214,36,0,1) 1%, rgba(214,36,0,1) 100%);
-background: linear-gradient(rgba(214,36,0,1) 1%, rgba(214,36,0,1) 100%);
+background: -webkit-linear-gradient(rgba(60,60,255,1) 1%, rgba(60,60,255,1) 100%);
+background: -moz-linear-gradient(rgba(60,60,255,1) 1%, rgba(60,60,255,1) 100%);
+background: -o-linear-gradient(rgba(60,60,255,1) 1%, rgba(60,60,255,1) 100%);
+background: linear-gradient(rgba(60,60,255,1) 1%, rgba(60,60,255,1) 100%);
 background-position:0 0;
   background-repeat:no-repeat;
   -webkit-animation:upTab .3s;
