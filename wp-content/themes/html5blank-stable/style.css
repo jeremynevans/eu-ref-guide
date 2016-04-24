@@ -306,6 +306,18 @@ a img.aligncenter {
 	}
 }
 
+
+
+
+
+/* New styles by Jeremy */
+
+body {
+	font-family: Lato, sans-serif;
+	background: #ddf;
+	font-size: 18px;
+}
+
 .logo {
 	font-size: 48px;
 	font-weight: 900;
