@@ -51,19 +51,25 @@ The Issues!
 						// Reset Query
 						wp_reset_query();
 						// The Query
-						query_posts( 'cat=3&cat!=4' );
-
-						// The Loop
-						while ( have_posts() ) : the_post();
-						    echo '<li>';
-						    the_title();
-						    echo '</li>';
-						    the_content();
-						endwhile;
-
-						// Reset Query
-						wp_reset_query();
+						query_posts( 'cat=3&cat=-4' );
 						?>
+
+						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+							<?php
+
+							// The Loop
+							while ( have_posts() ) : the_post();
+							    echo '<li>';
+							    the_title();
+							    echo '</li>';
+							    the_content();
+							endwhile;
+
+							// Reset Query
+							wp_reset_query();
+							?>
+						</div>
           </div>
       </div>
       <div class="content">
