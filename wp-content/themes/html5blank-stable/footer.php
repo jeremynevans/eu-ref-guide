@@ -27,7 +27,8 @@
 		</script>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
-
+		<script src="http://calm-woodland-73627.herokuapp.com/wp-content/themes/html5blank-stable/js/bootstrap.min.js"></script>
+		
 		<!-- Tabs script -->
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
 		<script>
